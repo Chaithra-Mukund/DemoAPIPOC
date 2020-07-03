@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DOS]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="POCTest(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.fh.test.POCTestCases">
+        <methods>
+          <include name="TC003"/>
+          <include name="TC002"/>
+          <include name="TC001"/>
+        </methods>
+      </class> <!-- com.fh.test.POCTestCases -->
+    </classes>
+  </test> <!-- POCTest(failed) -->
+</suite> <!-- Failed suite [DOS] -->

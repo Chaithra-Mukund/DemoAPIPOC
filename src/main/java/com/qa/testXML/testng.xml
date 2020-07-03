@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Fred Hutch POC  Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportListner" />
+	</listeners>
+
+
+	<test name="FredHutch POC test cases">
+		<classes>
+			<class name="com.qa.test.FHAPI"></class>
+			
+		</classes>
+	</test>
+</suite>
